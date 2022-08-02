@@ -2,6 +2,7 @@ import requests
 import re
 import os
 import time
+import numpy
 headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77'}
 name = input('您要爬取什么图片:')
 num = 0
